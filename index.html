@@ -4,97 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md. Faihaj Alam Topu - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Md. Faihaj Alam Topu</h1>
-            <p>Software Developer | Backend Specialist | Computer Vision Enthusiast</p>
-        </div>
-    </header>
-    <nav>
-        <ul class="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>Who I Am</h2>
-            
-        </section>
-        <section id="about" class="section">
-            <div class="container">
-                <h2>Who I Am</h2>
-                <p>
-                    I am Md. Faihaj Alam Topu, a student of CSE at BUET. I am a Software Developer specializing in backend development.
-                </p>
-                <p>
-                    In terms of programming languages, I am proficient in C, C++, Java, Python, and Golang. I have significant experience with Django, as I have completed most of my undergraduate software projects using it for both backend and full-stack development. Additionally, I have worked on backend projects using Golang. For frontend development, I generally use the React framework and Bootstrap.
-                    I am experienced in working with both SQL databases (PostgreSQL and MySQL) and NoSQL databases (MongoDB).
-                </p>
-                <p>
-                    In addition to my technical skills, I have a strong foundation in designing scalable microservices architectures using Docker and Kubernetes, along with secure API management through Kong API Gateway. Recently, I have been exploring emerging technologies like Rust, Spring Boot, and .NET to expand my capabilities and tackle future challenges.
-                </p>
-                <p>
-                    I am deeply curious about learning new frameworks and implementing innovative techniques. I am passionate about exploring emerging technologies like Rust, Spring Boot, and .NET, as well as optimizing APIs using tools like gRPC and Redis. I am committed to selecting the best technology stack and delivering high-quality results for my projects.
-                </p>
-                <p>
-                    I also love football, although I might not be very good at it. In my leisure time, I enjoy watching series and listening to audiobooks.
-                </p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Faihaj's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </section>
-        <section id="skills" class="section">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <div class="card">
-                        <h3>Programming Languages</h3>
-                        <p>C, C++, C#, Java, Python, JavaScript, Golang, Shell Script</p>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Who I Am</h2>
+            <p class="lead text-center">
+                I am Md. Faihaj Alam Topu, a student of CSE at BUET, and a Software Developer specializing in backend development. With expertise in multiple programming languages and frameworks, I have a proven track record of designing scalable, efficient software systems that align with business goals and enhance user experiences.
+            </p>
+            <p class="text-center">
+                I am passionate about exploring emerging technologies like Rust, Spring Boot, and .NET, as well as optimizing APIs using tools like gRPC and Redis. My curiosity drives me to continuously learn and adapt to new challenges in the field of software development.
+            </p>
+            <p class="lead text-center">
+                I am Md. Faihaj Alam Topu, a student of CSE at BUET. I am a Software Developer specializing in backend development.
+            </p>
+            <p class="text-center">
+                In terms of programming languages, I am proficient in C, C++, Java, Python, and Golang. I have significant experience with Django, as I have completed most of my undergraduate software projects using it for both backend and full-stack development. Additionally, I have worked on backend projects using Golang. For frontend development, I generally use the React framework and Bootstrap.
+                I am experienced in working with both SQL databases (PostgreSQL and MySQL) and NoSQL databases (MongoDB).
+            </p>
+            <p class="text-center">
+                In addition to my technical skills, I have a strong foundation in designing scalable microservices architectures using Docker and Kubernetes, along with secure API management through Kong API Gateway. Recently, I have been exploring emerging technologies like Rust, Spring Boot, and .NET to expand my capabilities and tackle future challenges.
+            </p>
+            <p class="text-center">
+                I am deeply curious about learning new frameworks and implementing innovative techniques. I am passionate about exploring emerging technologies like Rust, Spring Boot, and .NET, as well as optimizing APIs using tools like gRPC and Redis. I am committed to selecting the best technology stack and delivering high-quality results for my projects.
+            </p>
+            <p class="text-center">
+                I also love football, although I might not be very good at it. In my leisure time, I enjoy watching series and listening to audiobooks.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming Languages</h5>
+                            <p class="card-text">C, C++, C#, Java, Python, JavaScript, Golang, Shell Script</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>Backend Frameworks</h3>
-                        <p>Django, Gin (Go), Node.js, Spring Boot, Streamlit</p>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend Frameworks</h5>
+                            <p class="card-text">Django, Gin (Go), Node.js, Spring Boot, Streamlit</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>Frontend</h3>
-                        <p>HTML, CSS, Bootstrap, ReactJS</p>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend</h5>
+                            <p class="card-text">HTML, CSS, Bootstrap, ReactJS</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>Containerization & Orchestration</h3>
-                        <p>Docker, Kubernetes</p>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Containerization & Orchestration</h5>
+                            <p class="card-text">Docker, Kubernetes</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>Database Management</h3>
-                        <p>MySQL, PostgreSQL, MongoDB</p>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Database Management</h5>
+                            <p class="card-text">MySQL, PostgreSQL, MongoDB</p>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h3>API Management</h3>
-                        <p>REST, gRPC, Kong API Gateway</p>
-                    </div>
-                    <div class="card">
-                        <h3>Computer Vision</h3>
-                        <p>Ultralytics YOLO, OpenMMLab</p>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">API Management</h5>
+                            <p class="card-text">REST, gRPC, Kong API Gateway</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="contact" class="section">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>If you'd like to get in touch, feel free to <a href="mailto:youremail@example.com">email me</a>.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
         <div class="container">
-            <p>&copy; 2024 Md. Faihaj Alam Topu. Designed with care.</p>
-            <p><a href="#">Back to Top</a></p>
+            <h2 class="text-center mb-4">Contact</h2>
+            <p class="text-center lead">If you'd like to get in touch, feel free to <a href="mailto:faihajnow@gmail.com">email me</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 Md. Faihaj Alam Topu</p>
+            <a href="#" class="text-white">Back to Top</a>
         </div>
     </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
     <script src="js/scripts.js"></script>
 </body>
 </html>
