@@ -3,99 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Software Developer</title>
+    <title>Md. Faihaj Alam Topu - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #0073e6;
-            color: white;
-            padding: 20px 10%;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2em;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #005bb5;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: 700;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px 10%;
-        }
-        section h2 {
-            color: #0073e6;
-            margin-bottom: 15px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
-        footer a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>About Me</h1>
-        <p>Discover more about my journey and expertise as a Software Developer</p>
+        <div class="container">
+            <h1>Md. Faihaj Alam Topu</h1>
+            <p>Software Developer | Backend Specialist | Computer Vision Enthusiast</p>
+        </div>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <a href="src/contact.html">Contact</a>
+        <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <section id="about">
-        <h2>Who I Am</h2>
-        <p>
-            I am Md. Faihaj Alam Topu, a student of CSE at BUET. I am a Software Developer specializing in backend development.
-        </p>
-        <p>
-            In terms of programming languages, I am proficient in C, C++, Java, Python, and Golang. I have significant experience with Django, as I have completed most of my undergraduate software projects using it for both backend and full-stack development. Additionally, I have worked on backend projects using Golang. For frontend development, I generally use the React framework and Bootstrap.
-            I am experienced in working with both SQL databases (PostgreSQL and MySQL) and NoSQL databases (MongoDB).
-        </p>
-        <p>
-            In addition to my technical skills, I have a strong foundation in designing scalable microservices architectures using Docker and Kubernetes, along with secure API management through Kong API Gateway. Recently, I have been exploring emerging technologies like Rust, Spring Boot, and .NET to expand my capabilities and tackle future challenges.
-        </p>
-        <p>
-            I am deeply curious about learning new frameworks and implementing innovative techniques. I am committed to selecting the best technology stack and delivering high-quality results for my projects.
-        </p>
-        <p>
-            I also love football, although I might not be very good at it. In my leisure time, I enjoy watching series and listening to audiobooks.
-        </p>
-    </section>
+    <main>
+        <section id="about">
+            <h2>Who I Am</h2>
+            
+        </section>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Who I Am</h2>
+                <p>
+                    I am Md. Faihaj Alam Topu, a student of CSE at BUET. I am a Software Developer specializing in backend development.
+                </p>
+                <p>
+                    In terms of programming languages, I am proficient in C, C++, Java, Python, and Golang. I have significant experience with Django, as I have completed most of my undergraduate software projects using it for both backend and full-stack development. Additionally, I have worked on backend projects using Golang. For frontend development, I generally use the React framework and Bootstrap.
+                    I am experienced in working with both SQL databases (PostgreSQL and MySQL) and NoSQL databases (MongoDB).
+                </p>
+                <p>
+                    In addition to my technical skills, I have a strong foundation in designing scalable microservices architectures using Docker and Kubernetes, along with secure API management through Kong API Gateway. Recently, I have been exploring emerging technologies like Rust, Spring Boot, and .NET to expand my capabilities and tackle future challenges.
+                </p>
+                <p>
+                    I am deeply curious about learning new frameworks and implementing innovative techniques. I am passionate about exploring emerging technologies like Rust, Spring Boot, and .NET, as well as optimizing APIs using tools like gRPC and Redis. I am committed to selecting the best technology stack and delivering high-quality results for my projects.
+                </p>
+                <p>
+                    I also love football, although I might not be very good at it. In my leisure time, I enjoy watching series and listening to audiobooks.
+                </p>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="card">
+                        <h3>Programming Languages</h3>
+                        <p>C, C++, C#, Java, Python, JavaScript, Golang, Shell Script</p>
+                    </div>
+                    <div class="card">
+                        <h3>Backend Frameworks</h3>
+                        <p>Django, Gin (Go), Node.js, Spring Boot, Streamlit</p>
+                    </div>
+                    <div class="card">
+                        <h3>Frontend</h3>
+                        <p>HTML, CSS, Bootstrap, ReactJS</p>
+                    </div>
+                    <div class="card">
+                        <h3>Containerization & Orchestration</h3>
+                        <p>Docker, Kubernetes</p>
+                    </div>
+                    <div class="card">
+                        <h3>Database Management</h3>
+                        <p>MySQL, PostgreSQL, MongoDB</p>
+                    </div>
+                    <div class="card">
+                        <h3>API Management</h3>
+                        <p>REST, gRPC, Kong API Gateway</p>
+                    </div>
+                    <div class="card">
+                        <h3>Computer Vision</h3>
+                        <p>Ultralytics YOLO, OpenMMLab</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you'd like to get in touch, feel free to <a href="mailto:youremail@example.com">email me</a>.</p>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p><a href="#">Back to Top</a></p>
+        <div class="container">
+            <p>&copy; 2024 Md. Faihaj Alam Topu. Designed with care.</p>
+            <p><a href="#">Back to Top</a></p>
+        </div>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
