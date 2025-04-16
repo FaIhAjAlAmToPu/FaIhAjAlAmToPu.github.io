@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/binary-code-475664.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -29,32 +29,61 @@ const imageAltText = "desktop with books and laptop";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
+
+
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "LibShop",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Users can borrow and buy books from libraries and shops registered on the website.",
+    url: "https://github.com/FaIhAjAlAmToPu/libshop",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Supply Chain and Stock Management",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Supply Chain and Stock Management System is a microservices-based project designed to optimize and streamline inventory and logistics processes for businesses.",
+    url: "https://github.com/Supply-Chain-Stock-Management/CSE-408",
   },
   {
-    title: "My Resume Site",
+    title: "Thesis: Dense Crowd Tracking",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Tracking human heads in dense crowds using computer vision and deep learning. The project introduces a novle loss function to improve the performance of the detection model in dense crowd.",
+    url: "https://github.com/Dense-Crowd-Tracking/DCT",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "SportTrack",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "tracking players and ball in sports using computer vision and deep learning.",
+    url: "https://github.com/FaIhAjAlAmToPu/SportTrack",
   },
 ];
+
+// const projectList = [
+//   {
+//     title: "10 Things To Know About Azure Static Web Apps 🎉",
+//     description:
+//       "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+//     url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+//   },
+//   {
+//     title: "Web Development for Beginners",
+//     description:
+//       "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+//     url: "https://github.com/microsoft/web-dev-for-beginners",
+//   },
+//   {
+//     title: "My Resume Site",
+//     description:
+//       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+//     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+//   },
+//   {
+//     title: "GitHub Codespaces and github.dev",
+//     description:
+//       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+//     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+//   },
+// ];
 
 const Portfolio = () => {
   return (

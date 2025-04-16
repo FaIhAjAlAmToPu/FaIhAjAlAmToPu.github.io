@@ -24,19 +24,22 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Software Developer specializing in backend development with expertise in scalable microservices and database technologies. My career goal is to build high-performance systems and drive technological innovation.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Programming Languages [C, C++, C#, Java, Python, JavaScript, Golang, Shell Script]",
+  "Backend Frameworks [Django, Gin (Go), Node.js, Spring Boot, Streamlit]",
+  "Frontend [HTML, CSS, Bootstrap, ReactJS]",
+  "Containerization & Orchestration [Docker, Kubernetes]",
+  "Databases [MySQL, MongoDB, PostgreSQL]",
+  "Cloud [AWS, Azure]",
+  "Version Control [Git, GitHub]",
+  "Kong API Gateway",
+  "Computer Vision [OpenCV, UltraLytics, Openmm]",
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about crafting efficient, scalable architectures and leveraging emerging frameworks and languages like Django, Spring Boot, and Golang to solve complex problems. I strive to create impactful solutions that blend innovation with practicality.";
 
 const About = () => {
   return (
