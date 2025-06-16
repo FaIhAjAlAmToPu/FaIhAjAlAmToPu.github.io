@@ -20,11 +20,8 @@ import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
-/**
- * Sort description that expands on your title on the Home component.
- */
 const description =
-  "I'm a Software Developer specializing in backend development with expertise in scalable microservices and database technologies. My career goal is to build high-performance systems and drive technological innovation.";
+  "I'm an AI/ML Software Engineer specializing in backend development with expertise in scalable microservices, AI integration, and modern database technologies. My career goal is to build high-performance, intelligent systems that drive technological innovation.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,14 +29,15 @@ const description =
  */
 const skillsList = [
   "Programming Languages [C, C++, C#, Java, Python, JavaScript, Golang, Shell Script]",
-  "Backend Frameworks [Django, Gin (Go), Node.js, Spring Boot, Streamlit]",
-  "Frontend [HTML, CSS, Bootstrap, ReactJS]",
+  "Backend Frameworks [FastAPI, Django, Gin (Go), Node.js, Spring Boot, Streamlit]",
+  "AI/ML Tools [LangChain, LangGraph, CrewAI]",
+  "Frontend [HTML, CSS, Bootstrap, ReactJS, Next.js]",
   "Containerization & Orchestration [Docker, Kubernetes]",
   "Databases [MySQL, MongoDB, PostgreSQL]",
   "Cloud [AWS, Azure]",
   "Version Control [Git, GitHub]",
   "Kong API Gateway",
-  "Computer Vision [OpenCV, UltraLytics, Openmm]",
+  "Computer Vision [OpenCV, Ultralytics, OpenMM]",
 ];
 
 /**
@@ -48,8 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about crafting efficient, scalable architectures and leveraging emerging frameworks and languages like Django, Spring Boot, and Golang to solve complex problems. I strive to create impactful solutions that blend innovation with practicality.";
-
+  "I am passionate about crafting efficient, scalable architectures and integrating AI technologies like LangChain and CrewAI to solve complex problems. I thrive on blending innovation with practicality to create impactful, intelligent solutions.";
 const About = () => {
   return (
     <section className="padding" id="about">

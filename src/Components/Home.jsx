@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/computer-7466757.svg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText = "Just doing simple stuff in simple places";
 
 const Home = ({ name, title }) => {
   return (

@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Md. Faihaj Alam Topu",
-  title: "Software Engineer",
+  title: "AI/ML Software Engineer",
   email: "faihajnow@gmail.com",
   gitHub: "FaIhAjAlAmToPu",
   instagram: "faihaj__",

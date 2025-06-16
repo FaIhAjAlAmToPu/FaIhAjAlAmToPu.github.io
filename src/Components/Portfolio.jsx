@@ -112,12 +112,17 @@ const Portfolio = () => {
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div className="container">
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={project.title}
+              style={{ textDecoration: "none", color: "inherit" }}
+              className="box"
+            >
+              <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               <p className="small">{project.description}</p>
-            </div>
+            </a>
           ))}
         </div>
       </div>
