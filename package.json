@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://faihajalamtopu.github.io",
+  "homepage": "https://faihajalamtopu.github.io/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://faihajalamtopu.github.io'",
+    "build-gh": "parcel build --public-url 'https://faihajalamtopu.github.io/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
