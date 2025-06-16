@@ -56,6 +56,26 @@ const projectList = [
       "tracking players and ball in sports using computer vision and deep learning.",
     url: "https://github.com/FaIhAjAlAmToPu/SportTrack",
   },
+  {
+    title: "Your Exam",
+    description: "An AI-powered tool for generating exam questions and evaluating answers using FastAPI, NextJS, LangChain, and Mistral AI, with time-based mark deductions.",
+    url: "https://github.com/FaIhAjAlAmToPu/your-exam",
+  },
+  {
+    title: "FakeDet",
+    description: "A project to detect fake news using different classifier models and finally using langchain with MistralAI, designed to identify manipulated news.",
+    url: "https://github.com/FaIhAjAlAmToPu/fakeDet",
+  },
+  {
+    title: "AIvsREAL",
+    description: "A comparative analysis to distinguish between real and AI-generated images, built with deep learning models.",
+    url: "https://github.com/FaIhAjAlAmToPu/AIvsREAL",
+  },
+  {
+    title: "Ultralytics Loss Function Design",
+    description: "Contributed a novel loss function to the Ultralytics framework, prioritizing dense and smaller object detection in crowded scenes.",
+    url: "https://github.com/Dense-Crowd-Tracking/ultralytics",
+  },
 ];
 
 // const projectList = [
